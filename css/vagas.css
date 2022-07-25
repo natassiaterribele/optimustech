@@ -1,0 +1,37 @@
+.vagas__talentos {
+    text-align: center;
+    padding: 6.25rem 0;
+}
+
+.vagas__conteudo {
+    width: 84%;
+    margin-left: 8%;
+}
+
+.vagas__talentos-subtitulo {
+    color: var(--vinho);
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 4px 12px;
+    font-size: 0.875em;
+    font-weight: 500;
+}
+
+.vagas__talentos-titulo {
+    color: var(--cor-titulos);
+    font-size: 2.25em;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.vagas__talentos-texto {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.vagas__talentos-imagem {
+    width: 84%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}

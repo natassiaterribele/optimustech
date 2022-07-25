@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navegacao__titulo {
+    color: var(--cor-logo);
+    font-weight: 500;
+    font-size: 1.125em;
+    margin-left: 0.3em;
+}
+
+.navegacao__paginas {
+    display: flex;
+    
+}
+
+.navegacao__paginas-lista {
+    font-size: 1em;
+    font-weight: 500;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.navegacao__paginas-link {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.navegacao__paginas-link:hover, .botao__entrar:hover {
+    color: var(--vinho);
+}
+
+.botoes__login-link {
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.botao__cadastrar {
+    margin-left: 1em;
+}

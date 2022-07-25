@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+    padding: 100px 22vw;
+}
+
+.cabecalho-subtitulo {
+    color: var(--vinho);
+    font-weight: 600;
+}
+
+.cabecalho-titulo {
+    color: var(--cor-titulos);
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.cabecalho-descricao {
+    color: var(--cinza);
+    font-size: 1.25em;
+    font-weight: 400;
+}

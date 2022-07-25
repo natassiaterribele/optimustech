@@ -1,0 +1,33 @@
+@import url(css/navbar.css);
+@import url(css/cabecalho.css);
+@import url(css/metricas.css);
+@import url(css/vagas.css);
+
+:root {
+    --branco-principal: #FFFFFF;
+    --vinho: #8E2424;
+    --cinza: #667085;
+    --cor-logo: #3A404E;
+    --cor-titulos: #101828;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+}
+
+.botao {
+    background-color: var(--vinho);
+    color: var(--branco-principal);
+    padding: 0.65em 1.15em;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.botao:hover {
+    opacity: 0.9;
+}
+
+
