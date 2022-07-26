@@ -2,6 +2,7 @@
 @import url(css/cabecalho.css);
 @import url(css/metricas.css);
 @import url(css/vagas.css);
+@import url(css/vagas-abertas.css);
 
 :root {
     --branco-principal: #FFFFFF;
@@ -9,6 +10,7 @@
     --cinza: #667085;
     --cor-logo: #3A404E;
     --cor-titulos: #101828;
+    --cor-borda: #EAECF0;
     --fonte-principal: 'Inter', sans-serif;
 }
 
