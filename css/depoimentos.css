@@ -1,0 +1,47 @@
+.depoimentos {
+    background-color: rgba(196, 25, 25, 0.03);
+    width: 84%;
+    margin: 96px auto;
+    text-align: center;
+    border-radius: 16px;
+    padding: 64px;
+    box-sizing: border-box;
+}
+
+.depoimentos__subtitulo {
+    color: var(--vinho);
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.depoimentos__conteudo {
+    color: var(--cor-titulos);
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.8rem;
+}
+
+.depoimentos__imagem {
+    display: block;
+    margin: 0 auto;
+}
+
+.depoimentos span {
+    display: block;
+}
+
+.depoimentos__nome {
+    color: var(--cor-titulos);
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.depoimentos__cargo {
+    color: var(--cinza);
+    font-size: 0.875em;
+    font-weight: 400;
+}

@@ -3,6 +3,7 @@
 @import url(css/metricas.css);
 @import url(css/vagas.css);
 @import url(css/vagas-abertas.css);
+@import url(css/depoimentos.css);
 
 :root {
     --branco-principal: #FFFFFF;

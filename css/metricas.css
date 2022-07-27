@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 32px;
-    padding: 0 8% 96px 8%;
+    padding: 0 8% 6rem 8%;
 }
 
 .metricas__titulo {
@@ -23,4 +23,5 @@
     color: var(--cinza);
     font-weight: 400;
     font-size: 1em;
+    line-height: 1.3rem;
 }
