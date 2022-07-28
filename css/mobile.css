@@ -98,6 +98,19 @@
     .depoimentos__conteudo {
         line-height: 1.5rem;
     }
+
+    .rodape__descricao {
+        line-height: 1.4rem;
+    }
+   
+    .email {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    .copyrigth {
+        line-height: 1.1rem;
+    }
  }
 
 @media screen and (max-width: 410px) {
@@ -138,5 +151,21 @@
 
     .depoimentos__conteudo {
         line-height: 1.3rem;
+    }
+
+    .rodape__descricao {
+        line-height: 1.2rem;
+    }
+
+    .formulario {
+        flex-wrap: wrap;
+    }
+
+    .email {
+        width: 80%;
+    }
+
+    .copyrigth {
+        line-height: 1.1rem;
     }
 }

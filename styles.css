@@ -4,6 +4,7 @@
 @import url(css/vagas.css);
 @import url(css/vagas-abertas.css);
 @import url(css/depoimentos.css);
+@import url(css/rodape.css);
 
 :root {
     --branco-principal: #FFFFFF;
@@ -27,6 +28,7 @@ body {
     padding: 0.65em 1.15em;
     border-radius: 7px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .botao:hover {
