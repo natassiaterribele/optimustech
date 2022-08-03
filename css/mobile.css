@@ -9,57 +9,73 @@
         grid-template-rows: auto auto;
     }
 
+    nav .logo, .paginas, .botoes {
+        display: none;
+    }
+
     nav {
-        flex-direction: column;
-        gap: 20px;
-        position: relative;
-        padding: 0;
+        padding: 0.5rem 0;
     }
 
-    nav .logo {
-        position: absolute;
-        top: 0.5rem;
-        left: 0;
+    .nav__mobile {
         width: 100%;
-        min-height: 2rem;
-        padding-left: 1rem;
-        box-sizing: border-box;
-    }
-
-    nav .botoes {
-        position: absolute;
-        top: 0.5rem;
-        right: 1rem;
-    }
-
-    nav .botoes .botao {
-        padding: 0.5em 1em;
-    }
-
-    nav .paginas {
-        margin-top: 3rem;
         display: flex;
-        flex-direction: column;
-        width: 100%;
+        justify-content: space-between;
+        margin: 0 1rem;
+        position: relative;
     }
 
-    nav .paginas ul {
-        display: block;
-        text-align: center;
+    .nav__mobile-logo {
+        display: flex;
+        align-items: center;
+        
     }
 
-    nav .paginas ul li {
+    .nav__menu-hamburguer {
+        width: 28px;
+        height: 28px;
+        background-image: url("../img/menu-icon.svg");
+        background-repeat: no-repeat;
         display: inline-block;
+        cursor: pointer;
     }
 
-    nav .paginas::before {
-        content: "";
-        height: 1px;
+    .lista-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: var(--cinza-menu);
+        height: 100vh;
+        padding: 0.5rem 1rem;
+    }
+
+    .menu-hamburguer__interno {
+        text-align: right;
+    }
+
+    .lista-menu hr {
+        margin: 0.5rem 0;
+    }
+
+    .container__botao:checked~.lista-menu {
         display: block;
-        background-color: var(--cinza);
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-bottom: 1rem;
+    }
+
+    .container__botao {
+        display: none;
+    }
+
+    .navegacao__paginas-lista, .botoes__menu-lateral {
+        padding: 1em 0;
+        text-transform: uppercase;
+        text-align: right;
+        margin-left: 8vw;
+        margin-right: 0;
+    }
+    
+    .botoes__menu-lateral {
+        padding-top: 0.5rem;
     }
 
     header {

@@ -5,6 +5,10 @@ nav {
     padding: 1.5rem 0;
 }
 
+.nav__mobile {
+    display: none;
+}
+
 .logo {
     display: flex;
     align-items: center;
